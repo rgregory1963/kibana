@@ -194,6 +194,7 @@ export class Plugin {
       config: config.audit,
       logging: core.logging,
       auditTrail: core.auditTrail,
+      http: core.http,
       getCurrentUser: authc.getCurrentUser,
       getSpacesService: this.getSpacesService,
     });
